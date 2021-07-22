@@ -1,0 +1,22 @@
+.footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    background-color: rgb(68, 61, 62);
+    padding: 5px;
+    font-size: 10pt;
+    color: white;
+}
+
+span a {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+.div-1{
+    margin-left: 10px;
+}
+.div-1 a {
+    color: white;
+}

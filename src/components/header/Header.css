@@ -1,0 +1,23 @@
+#inc-f{
+    font-size: 30pt;
+    font-family: Verdana;
+}
+
+#login{
+    color: black;
+}
+
+#sign-up{
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 30px;
+    color: black;
+}
+#sign-up:hover{
+    background-color: rgb(119, 76, 76);
+}
+
+/* .dropdown-menu{
+    display: block;
+    flex: 1;
+} */

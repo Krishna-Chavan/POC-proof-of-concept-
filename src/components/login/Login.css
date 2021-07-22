@@ -1,0 +1,78 @@
+.div1{
+  position: absolute;
+  z-index: 1;
+  top: 50px;
+  left: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #7ae9ec;
+    margin: 10% auto 15% auto;
+    border: 1px solid black;
+    width: 40%;
+    text-align: center;
+
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(110, 228, 236);
+    box-sizing: border-box;
+  }
+ 
+
+  /* button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  button:hover {
+    opacity: 0.8;
+  } */
+  .separtor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 10px;
+    color: rgb(65, 55, 55);
+}
+.separtor::after, .separtor::before {
+  flex: 1;
+  content: "";
+  border-bottom: 1px solid rgb(14, 12, 12);
+  border-color: rgb(12, 11, 11);
+  margin: 0 5px;
+}
+
+.social-media-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.social-media-icons a {
+  border: 2px solid rgb(233, 170, 170);
+  border-radius: 50%;
+  padding: 5px 5px;
+  margin: 0 5px;
+  color: rgb(221, 169, 169);
+  height: 35px;
+  width: 35px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+  transition: all 0.3s;
+}
+
+.social-media-icons a:hover {
+  border-color: rgb(39, 147, 241);
+  transform: scale(1.2, 1.2);
+  background-color: rgb(39, 147, 241);
+  color: white;
+}

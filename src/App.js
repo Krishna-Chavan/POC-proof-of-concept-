@@ -1,18 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
+import React from 'react';
 import Header from './components/header/Header';
 import Home from './components/home/Home';
 import AddHome from './components/addhome/AddHome';
 import Footer from './components/footer/Footer';
 import Login from './components/login/Login';
-import { BrowserRouter as Router, Route } from 'react-router-dom'
+import { Route } from 'react-router-dom'
+import {StaticRouter} from 'react-router-dom';
 import Signup from './components/signup/Signup';
 import SlidHomes from './components/slidinghomes/SlidHomes';
 
 
 function App() {
   return (
-    <Router>
+    <StaticRouter>
       <div>
         <Header />
         <Home />
@@ -25,7 +27,7 @@ function App() {
         {/* <Login /> */}
         <Footer />
       </div>
-    </Router>
+    </StaticRouter>
   );
 }
 
